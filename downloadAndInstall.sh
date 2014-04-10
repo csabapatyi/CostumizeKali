@@ -24,3 +24,7 @@ make install
 cd /root/extra_installed
 git clone https://github.com/TheRook/subbrute.git
 echo "export PATH=/root/extra_installed/subbrute/:$PATH" >> ~/.bashrc
+
+
+##Download and install pip 
+apt-get install python-pip
